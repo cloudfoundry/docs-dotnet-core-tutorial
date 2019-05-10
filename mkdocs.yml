@@ -36,3 +36,11 @@ markdown_extensions:
       linenums: true
   - toc:
       permalink: true
+plugins:
+  - search
+  - markdownextradata
+
+# Template variables
+extra:
+  product_name_first: Cloud Foundry
+  product_name: Cloud Foundry
