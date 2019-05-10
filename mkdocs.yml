@@ -1,1 +1,14 @@
 site_name: Getting Started with Cloud Foundry on .NET
+
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+
+repo_name: 'cloudfoundry/docs-dotnet-tutorial'
+repo_url: 'https://github.com/cloudfoundry/docs-dotnet-tutorial'
+
+nav:
+  - Home: index.md
+  - About: about.md
