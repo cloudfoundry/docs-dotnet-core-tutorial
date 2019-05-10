@@ -42,5 +42,5 @@ plugins:
 
 # Template variables
 extra:
-  product_name_first: Cloud Foundry
+  product_full: Cloud Foundry
   product_name: Cloud Foundry
