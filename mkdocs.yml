@@ -16,7 +16,17 @@ theme:
 # Left navigation
 nav:
   - Home: index.md
-  - About: about.md
+  - Prerequisites: prerequisites.md
+  - Set up environment: setup.md
+  - Prepare the app: prepare-app.md
+  - Deploy the app: deploy-app.md
+  - View deployment logs: view-app-logs.md
+  - Create a manifest: create-manifest.md
+  - Modify web.config: modify-web-config.md
+  - Scale the app: scale-app.md
+  - Configure health check: config-health-check.md
+  - Bind a service: bind-service.md
+  - Next steps: next-steps.md
 
 # Extensions
 markdown_extensions:
