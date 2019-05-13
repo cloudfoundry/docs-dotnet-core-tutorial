@@ -19,8 +19,8 @@ nav:
   - Prerequisites: prerequisites.md
   - Set up environment: setup.md
   - Prepare the app: prepare-app.md
+  - Configure app logging: configure-app-logs.md
   - Deploy the app: deploy-app.md
-  - View deployment logs: view-app-logs.md
   - Create a manifest: create-manifest.md
   - Modify web.config: modify-web-config.md
   - Scale the app: scale-app.md
