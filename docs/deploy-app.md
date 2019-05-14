@@ -25,8 +25,9 @@ To push the .NET sample app to {{ product_short }}, do the following:
 
 1. Run the following command to target the Cloud Controller:
 
-        cf api api.dotnet-sample-app.EXAMPLE.COM
-    Where `EXAMPLE.COM` is the public domain you configured for the .NET sample app.
+        cf api https://api.EXAMPLE-DOMAIN
+
+    Where `EXAMPLE-DOMAIN` is the domain for your {{ product_short }} deployment.
 
 1. To deploy the .NET sample app, run the following command:
 
@@ -39,4 +40,5 @@ To push the .NET sample app to {{ product_short }}, do the following:
 
 1. Wait for your app to stage and start.
 
-1. Navigate to your app's public domain to see your running app.
+1. Navigate to `dotnet-sample-app.EXAMPLE-DOMAIN` to see your running app,
+where `EXAMPLE-DOMAIN` is the domain for your {{ product_short }} deployment.
