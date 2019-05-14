@@ -16,16 +16,14 @@ theme:
 # Left navigation
 nav:
   - Home: index.md
-  - Prerequisites: prerequisites.md
   - Set up environment: setup.md
   - Prepare the app: prepare-app.md
   - Create a manifest: create-manifest.md
   - Configure app logging: configure-app-logs.md
   - Deploy the app: deploy-app.md
   - View app logs: view-app-logs.md
-  - Modify web.config: modify-web-config.md
-  - Scale the app: scale-app.md
   - Configure health check: config-health-check.md
+  - Scale the app: scale-app.md
   - Bind a service: bind-service.md
   - Next steps: next-steps.md
 

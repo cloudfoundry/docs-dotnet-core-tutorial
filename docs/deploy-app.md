@@ -10,8 +10,7 @@ for your {{ product_short }} deployment, and push the .NET sample app.
 
 Before you can push the .NET sample app to {{ product_short }}, you must do the following:
 
-- Create a Cloud Foundry account. See [Prerequisites](../prerequisites).
-- Configure the Cloud Controller API endpoint. See [Set up environment](../setup).
+- Identify your Cloud Foundry API endpoint. See [Set up environment](../setup/#identify-your-cloud-foundry-api-endpoint).
 - Download the .NET sample app. See [Prepare the app](../prepare-app).
 - Create a public domain for the .NET sample app. See ?
 - Create an app manifest. See [Create a manifest](../create-manifest).
@@ -40,4 +39,4 @@ To push the .NET sample app to {{ product_short }}, do the following:
 
 1. Wait for your app to stage and start.
 
-1. Navigate to your app's public domain to confirm that the app is running.
+1. Navigate to your app's public domain to see your running app.
