@@ -27,5 +27,3 @@ cf push sample-dotnet-app -u http -t 60
 This command pushes your app with an HTTP health check that has a timeout
 value of 60 seconds. The timeout value determines how much time is allowed
 to pass between when the app starts and when the app sends its first healthy response.
-
-## Configure a custom health endpoint

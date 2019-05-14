@@ -3,12 +3,14 @@ before deploying the .NET sample app.
 
 ## Overview
 
-Before you can push your app to {{ product_short }} you need to know the following:
+Before you can push the .NET sample app to {{ product_short }},
+you must know the following:
 
 - Your username and password for your Cloud Foundry instance.
-- The organization and space where you want to deploy your app. A Cloud Foundry workspace
-is organized into organizations, and within them, spaces. As a Cloud Foundry user, you have
-access to one or more organizations and spaces.
+- The organization and space where you want to deploy the .NET sample app.
+A Cloud Foundry workspace is organized into organizations, and within them,
+spaces. As a Cloud Foundry user, you have access to one or more organizations
+and spaces.
 - The API endpoint for your Cloud Foundry instance. See [Identify your Cloud Foundry API endpoint](#identify-your-cloud-foundry-api-endpoint) below.
 
 ## Identify your Cloud Foundry API endpoint

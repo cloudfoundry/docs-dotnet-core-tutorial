@@ -19,11 +19,13 @@ Before you can push the .NET sample app to {{ product_short }}, you must do the 
 
 To push the .NET sample app to {{ product_short }}, do the following:
 
+1. On the command line, navigate to the directory that contains the .NET sample app.
+
 1. Log in to the cf CLI:
 
         cf login
 
-1. Run the following command to target the Cloud Controller:
+1. Run the following command to target your Cloud Controller:
 
         cf api https://api.EXAMPLE-DOMAIN
 
@@ -31,12 +33,7 @@ To push the .NET sample app to {{ product_short }}, do the following:
 
 1. To deploy the .NET sample app, run the following command:
 
-        cf push dotnet-sample-app -s windows -b hwc_buildpack
-
-    !!! note
-        By default, {{ product_short }} serves .NET Framework apps with Hostable Web Core
-        (HWC). HWC is a lighter version of the Internet Information Services (IIS) server
-        that contains the core IIS functionality.
+        cf push
 
 1. Wait for your app to stage and start.
 
