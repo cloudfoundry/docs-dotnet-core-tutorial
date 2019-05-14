@@ -10,7 +10,8 @@ In this topic, you create a basic manifest with the following information
 about your app:
 
 * **App name**: A name for your app.
-* **Container memory**: The amount of memory to allocate for your app.
+* **Container memory**: The amount of memory required to host your app when you
+first push it to {{ product_short }}.
 * **Stack**: A stack provides the root file system for an app. Use the `windows`
 stack to push the .NET sample app to {{ product_short }}.
 * **Buildpack**: A buildpack provides runtime support for an app. Use the

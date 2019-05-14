@@ -21,10 +21,10 @@ To add a global error handler to the .NET sample app, follow the steps below:
 
 1. Add the following to the `Global.asax.cs` file:
 
-      void Application_Error(object sender, EventArgs e)
-      {
-      Exception lastError = Server.GetLastError();
-      Console.WriteLine("Unhandled exception: " + lastError.Message + lastError.StackTrace);
-      }
+        void Application_Error(object sender, EventArgs e)
+        {
+        Exception lastError = Server.GetLastError();
+        Console.WriteLine("Unhandled exception: " + lastError.Message + lastError.StackTrace);
+        }
 
-1. Save and close the file.
+1. Save and close `Global.asax.cs`.
