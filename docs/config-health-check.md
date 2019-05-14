@@ -3,7 +3,7 @@ This topic describes how to configure a health check for the .NET sample app.
 ## Overview
 
 A health check regularly monitors the status of a running {{ product_full }}
-app. If {{ product_name }} detects an unhealthy app instance, the app restarts
+app. If {{ product_short }} detects an unhealthy app instance, the app restarts
 in a new container.
 
 The default health check monitors that the TCP port for your app is open.

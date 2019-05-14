@@ -10,9 +10,9 @@ In this topic, you create a basic manifest with the following information
 about your app:
 
 * **App name**: A name for your app.
-* **Container memory**: Set this value to at least 2&nbsp;GB.
+* **Container memory**: The amount of memory to allocate for your app.
 * **Stack**: A stack provides the root file system for an app. Use the `windows`
-stack to push the .NET sample app to {{ product_name }}.
+stack to push the .NET sample app to {{ product_short }}.
 * **Buildpack**: A buildpack provides runtime support for an app. Use the
 Hostable Web Core (HWC) buildpack for the .NET sample app.
 

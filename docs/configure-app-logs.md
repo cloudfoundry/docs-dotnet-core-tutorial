@@ -3,8 +3,8 @@ This topic describes how to configure logging for the sample app.
 ## Overview
 
 {{ product_full }} offers built-in logging for apps. To view app logs in
-{{ product_name }}, you must configure the .NET sample app to send app logs
-to {{ product_name }} by adding a global error handler that logs to stdout.
+{{ product_short }}, you must configure the .NET sample app to send app logs
+to {{ product_short }} by adding a global error handler that logs to stdout.
 
 ## Prerequisites
 
@@ -21,10 +21,10 @@ To add a global error handler to the .NET sample app, follow the steps below:
 
 1. Add the following to the `Global.asax.cs` file:
 
-        void Application_Error(object sender, EventArgs e)
-        {
-        Exception lastError = Server.GetLastError();
-        Console.WriteLine("Unhandled exception: " + lastError.Message + lastError.StackTrace);
-        }
+      void Application_Error(object sender, EventArgs e)
+      {
+      Exception lastError = Server.GetLastError();
+      Console.WriteLine("Unhandled exception: " + lastError.Message + lastError.StackTrace);
+      }
 
 1. Save and close the file.

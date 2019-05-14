@@ -19,9 +19,10 @@ nav:
   - Prerequisites: prerequisites.md
   - Set up environment: setup.md
   - Prepare the app: prepare-app.md
+  - Create a manifest: create-manifest.md
   - Configure app logging: configure-app-logs.md
   - Deploy the app: deploy-app.md
-  - Create a manifest: create-manifest.md
+  - View app logs: view-app-logs.md
   - Modify web.config: modify-web-config.md
   - Scale the app: scale-app.md
   - Configure health check: config-health-check.md
@@ -43,4 +44,4 @@ plugins:
 # Template variables
 extra:
   product_full: Cloud Foundry
-  product_name: Cloud Foundry
+  product_short: Cloud Foundry
