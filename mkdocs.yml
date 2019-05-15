@@ -18,8 +18,8 @@ nav:
   - Home: index.md
   - Prerequisites: prerequisites.md
   - Prepare the app: prepare-app.md
-  - Create a manifest: create-manifest.md
   - Configure app logging: configure-app-logs.md
+  - Create a manifest: create-manifest.md
   - Deploy the app: deploy-app.md
   - View app logs: view-app-logs.md
   - Configure health check: config-health-check.md
