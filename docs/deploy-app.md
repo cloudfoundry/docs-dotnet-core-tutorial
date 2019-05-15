@@ -2,18 +2,9 @@ This topic describes how to deploy the .NET sample app to {{ product_full }}.
 
 ## Overview
 
-To deploy the .NET sample app to {{ product_short }}, you use the Cloud Foundry
-Command Line Interface (cf CLI). You log in to the cf CLI, target the Cloud Controller
-for your {{ product_short }} deployment, and push the .NET sample app.
-
-## Prerequisites
-
-Before you can push the .NET sample app to {{ product_short }}, you must do the following:
-
-- Identify your Cloud Foundry API endpoint. See [Set up environment](../setup/#identify-your-cloud-foundry-api-endpoint).
-- Download the .NET sample app. See [Prepare the app](../prepare-app).
-- Create a public domain for the .NET sample app. See ?
-- Create an app manifest. See [Create a manifest](../create-manifest).
+To deploy the .NET sample app to {{ product_short }}, you log in to the Cloud Foundry
+Command Line Interface (cf CLI), target the Cloud Controller for your {{ product_short }}
+deployment, and push the .NET sample app.
 
 ## Push the .NET sample app
 
@@ -23,13 +14,11 @@ To push the .NET sample app to {{ product_short }}, do the following:
 
 1. Log in to the cf CLI:
 
-        cf login
+        :::shell
+        cf login -a api.EXAMPLE-DOMAIN
 
-1. Run the following command to target your Cloud Controller:
-
-        cf api https://api.EXAMPLE-DOMAIN
-
-    Where `EXAMPLE-DOMAIN` is the domain for your {{ product_short }} deployment.
+    Where `api.EXAMPLE-DOMAIN` is the URL of the Cloud Controller in your
+    {{ product_short }} instance.
 
 1. To deploy the .NET sample app, run the following command:
 

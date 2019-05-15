@@ -16,7 +16,7 @@ theme:
 # Left navigation
 nav:
   - Home: index.md
-  - Set up environment: setup.md
+  - Prerequisites: prerequisites.md
   - Prepare the app: prepare-app.md
   - Create a manifest: create-manifest.md
   - Configure app logging: configure-app-logs.md

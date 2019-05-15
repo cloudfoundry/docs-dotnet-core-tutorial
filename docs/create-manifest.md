@@ -21,10 +21,6 @@ instruct {{ product_short }} to host the .NET sample app on a Windows VM.
         The HWC buildpack is a lighter version of the Internet Information Services (IIS)
         server that contains the core IIS functionality.
 
-## Prerequisite
-
-Before you create the app manifest, you must download the .NET sample app.
-
 ## Create an app manifest
 
 To create a basic app manifest, follow the steps below:

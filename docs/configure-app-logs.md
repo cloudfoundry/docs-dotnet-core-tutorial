@@ -6,11 +6,6 @@ This topic describes how to configure logging for the sample app.
 {{ product_short }}, you must configure the .NET sample app to send app logs
 to {{ product_short }} by adding a global error handler that logs to stdout.
 
-## Prerequisites
-
-Before you can configure a global error handler, you must download the
-.NET sample app. See [Prepare the app](../prepare-app).
-
 ## Add a global error handler to the sample app
 
 To add a global error handler to the .NET sample app, follow the steps below:

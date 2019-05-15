@@ -18,6 +18,10 @@ To set up MkDocs, follow the steps below:
 
         pip3 install mkdocs-material
 
+1. Install the 'material' theme:
+
+        pip3 install mkdocs-markdownextradata-plugin
+
 ## Preview changes
 
 To preview the docs locally, follow the steps below:
