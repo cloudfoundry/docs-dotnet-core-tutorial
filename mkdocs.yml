@@ -23,7 +23,8 @@ nav:
   - Deploy the app: deploy-app.md
   - View app logs: view-app-logs.md
   - Configure health check: config-health-check.md
-  - Scale the app: scale-app.md
+  - Scale the app horizontally: scale-horizontal.md
+  - Scale the app vertically: scale-vertical.md
   - Bind a service: bind-service.md
   - Next steps: next-steps.md
 

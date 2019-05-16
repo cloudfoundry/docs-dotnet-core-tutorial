@@ -19,5 +19,6 @@ For example:
 - [View app logs](../view-app-logs)
 - [Configure health check](../config-health-check)
 - Modify web.config
-- [Scale the app](../scale-app)
+- [Scale the app horizontally](../scale-horizontal)
+- [Scale the app vertically](../scale-vertical)
 - [Bind a service](../bind-service)
