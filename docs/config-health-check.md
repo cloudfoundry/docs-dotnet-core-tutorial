@@ -1,4 +1,4 @@
-This topic describes how to configure a health check for the .NET sample app.
+This topic describes how to configure an HTTP health check for the .NET sample app.
 
 ## Overview
 
@@ -6,15 +6,13 @@ A health check regularly monitors the status of a running {{ product_full }}
 app. If {{ product_short }} detects an unhealthy app instance, the app restarts
 in a new container.
 
-The default health check monitors that the TCP port for your app is open.
-Follow the steps in this topic to configure additional monitoring for your
-app health:
+By default, {{ product_short }} uses a health check to monitor that the TCP port
+for your app is open. In this topic, you configure an additional HTTP health check
+for the .NET sample app.
 
-* **HTTP health check**: This health check sends a `GET` request to the HTTP
-endpoint on the default port for the app. If the app responds with `HTTP 200`,
-then the health check determines that the app is healthy.
-* **Custom health endpoint**: Configure a custom health endpoint for more
-accurate app health reporting.
+The HTTP health check sends a `GET` request to the HTTP endpoint on the default
+port for the app. If the app responds with `HTTP 200`, then the health check
+determines that the app is healthy.
 
 ## Configure HTTP health check
 
