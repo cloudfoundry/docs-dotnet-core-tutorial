@@ -1,4 +1,4 @@
-This topic describes how to configure an HTTP health check for the .NET sample app.
+This topic describes how to configure an HTTP health check for the .NET Core sample app.
 
 ## Overview
 

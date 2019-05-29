@@ -1,4 +1,4 @@
-This topic describes how to scale the .NET sample app.
+This topic describes how to scale the .NET Core sample app.
 
 ## Overview
 
@@ -16,17 +16,17 @@ instances allows your app to handle increased traffic and demand.
 {{ product_short }} applies to all instances of the app. Adding more disk or
 memory resources can improve the overall performance of your app.
 
-## Scale up the .NET sample app vertically
+## Scale up the .NET Core sample app vertically
 
 You can scale up an app vertically by changing the disk space limit and the
 memory limit.
 
 ### Scale up disk
 
-To scale up the .NET sample app disk, run the following command:
+To scale up the .NET Core sample app disk, run the following command:
 
 ``` shell
-cf scale dotnet-sample-app -k 1G
+cf scale dotnet-core-sample-app -k 1G
 ```
 
 After you run the above command, {{ product_short }} increases the disk space of
@@ -34,7 +34,7 @@ all instances of your app to 1&nbsp;GB.
 
 ### Scale up memory
 
-To scale up the .NET sample app memory, run the following command:
+To scale up the .NET Core sample app memory, run the following command:
 
 ``` shell
 cf scale dotnet-sample-app -m 1G
@@ -43,17 +43,17 @@ cf scale dotnet-sample-app -m 1G
 After you run the above command, {{ product_short }} increases the memory limit of
 all instances of your app to 1&nbsp;GB.
 
-## Scale down the .NET sample app vertically
+## Scale down the .NET Core sample app vertically
 
 You can scale an app down vertically by decreasing the disk space limit and the
 memory limit.
 
 ### Scale down disk
 
-To scale down the .NET sample app disk, run the following command:
+To scale down the .NET Core sample app disk, run the following command:
 
 ``` shell
-cf scale dotnet-sample-app -k 512M
+cf scale dotnet-core-sample-app -k 512M
 ```
 
 After you run the above command, {{ product_short }} decreases the disk space of
@@ -61,10 +61,10 @@ all instances of your app to 512&nbsp;MB.
 
 ### Scale down memory
 
-To scale down the .NET sample app memory, run the following command:
+To scale down the .NET Core sample app memory, run the following command:
 
 ``` shell
-cf scale dotnet-sample-app -m 512M
+cf scale dotnet-core-sample-app -m 512M
 ```
 
 After you run the above command, {{ product_short }} decreases the memory limit of

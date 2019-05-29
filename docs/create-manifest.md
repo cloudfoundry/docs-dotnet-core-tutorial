@@ -1,4 +1,4 @@
-This topic describes how to create a {{ product_full }} manifest for the .NET sample app.
+This topic describes how to create a {{ product_full }} manifest for the .NET Core sample app.
 
 ## Overview
 
@@ -12,14 +12,10 @@ about your app:
 * **App name**: A name for your app.
 * **Container memory**: The amount of memory required to host your app when you
 push it to {{ product_short }}.
-* **Stack**: The root file system for your app. You use the `windows` stack to
-instruct {{ product_short }} to host the .NET sample app on a Windows VM.
-* **Buildpack**: Provides runtime support for your app. You use the Hostable Web Core
-(HWC) buildpack when you push the .NET sample app.
-
-    !!! note
-        The HWC buildpack is a lighter version of the Internet Information Services (IIS)
-        server that contains the core IIS functionality.
+* **Stack**: The root file system for your app. You use the `cflinuxfs3` stack to
+instruct {{ product_short }} to host the .NET Core sample app on a Linux VM.
+* **Buildpack**: Provides runtime support for your app. You use the .NET Core
+buildpack when you push the .NET Core sample app.
 
 ## Create an app manifest
 
@@ -30,9 +26,9 @@ To create a basic app manifest, follow the steps below:
 1. Copy the following example text and paste it into a new file:
 
         applications:
-        - name: sample-dotnet-app
+        - name: sample-dotnet-core-app
           memory: 2G
-          stack: windows
-          buildpack: hwc_buildpack
+          stack: cflinuxfs3
+          buildpack: dotnet-core-buildpack
 
 1. Name the file `manifest.yml` and save.
