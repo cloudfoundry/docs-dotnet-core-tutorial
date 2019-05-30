@@ -1,6 +1,6 @@
 # Project information
-site_name: 'Getting Started with Cloud Foundry on .NET'
-site_description: 'A tutorial for deploying your first .NET app to Cloud Foundry'
+site_name: 'Getting Started with Cloud Foundry on .NET Core'
+site_description: 'A tutorial for deploying your first .NET Core app to Cloud Foundry'
 
 # Repository
 repo_name: 'cloudfoundry/docs-dotnet-tutorial'

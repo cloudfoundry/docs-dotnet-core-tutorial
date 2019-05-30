@@ -19,7 +19,7 @@ determines that the app is healthy.
 To add an HTTP health check to your app, run the following command:
 
 ```
-cf push sample-dotnet-app -u http -t 60
+cf push dotnet-core-sample -u http -t 60
 ```
 
 This command pushes your app with an HTTP health check that has a timeout

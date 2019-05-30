@@ -20,20 +20,24 @@ memory resources can improve the overall performance of your app.
 
 To scale up the .NET Core sample app horizontally, run the following command:
 
-``` shell
-cf scale dotnet-core-sample-app -i 5
-```
+    cf scale dotnet-core-sample -i 3
 
 After you run the above command, {{ product_short }} increases the number of
-instances of your app to 5.
+instances of your app to 3 and returns the following output:
+
+    $ cf scale dotnet-core-sample -i 3
+    Scaling app dotnet-core-sample in org my-cf-org / space sample-apps as user@my-domain.com...
+    OK
 
 ## Scale down horizontally
 
 To scale down the .NET Core sample app horizontally, run the following command:
 
-``` shell
-cf scale dotnet-core-sample-app -i 3
-```
+    cf scale dotnet-core-sample -i 1
 
 After you run the above command, {{ product_short }} decreases the number of
-instances of your app to 3.
+instances of your app to 1 and returns the following output:
+
+    $ cf scale dotnet-core-sample -i 1
+    Scaling app dotnet-core-sample in org my-cf-org / space sample-apps as user@my-domain.com...
+    OK

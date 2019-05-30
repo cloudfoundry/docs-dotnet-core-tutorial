@@ -19,16 +19,16 @@ buildpack when you push the .NET Core sample app.
 
 ## Create an app manifest
 
-To create a basic app manifest, follow the steps below:
+To create a basic app manifest, do the following:
 
-1. Navigate to the `web.config` directory for the .NET sample app.
+1. From the `get-started-aspnet-core` directory, delete the existing `manifest.yml` file.
 
 1. Copy the following example text and paste it into a new file:
 
         applications:
-        - name: sample-dotnet-core-app
+        - name: dotnet-core-sample
           memory: 2G
           stack: cflinuxfs3
-          buildpack: dotnet-core-buildpack
+          buildpacks: dotnet-core
 
 1. Name the file `manifest.yml` and save.

@@ -1,4 +1,4 @@
-This topic describes how to bind a service to the .NET Core sample app.
+This topic describes how to bind a RabbitMQ service instance to the .NET Core sample app.
 
 ## Overview
 
@@ -7,13 +7,27 @@ a third-party service with your app.
 
 To bind a service instance to your app, you must do the following:
 
-1. Create a service broker.
+1. Create a broker for the third-party service.
+
+    !!! note
+        This step requires Admin permissions in your org.
+
 1. Create a service instance.
 1. Bind the service instance to your app.
 
-## Create a service broker
+## Prerequisites
 
-1. Run the following command:
+Before you can create a service broker and bind a service instance to an app,
+you must be an admin of the Cloud Foundry org where you deployed the app.
+
+## Create a service broker for RabbitMQ
+
+To make the RabbitMQ service available within your space, you must create a
+broker for the RabbitMQ service.
+
+
+
+1. To create a service broker for RabbitMQ, run the following command:
 
         cf create-service-broker rabbitmq small-plan my-rabbitmq
 
