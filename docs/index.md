@@ -13,10 +13,11 @@ To deploy the sample .NET Core sample app to {{ product_short }}, do the followi
 1. [Create a manifest](../create-manifest)
 1. [Deploy the app](../deploy-app)
 
-After you deploy the sample .NET Core app, you can configure Day 2 operations, such as the following:
+After you deploy the .NET Core sample app, do the following to configure and monitor your app:
 
 - [View app logs](../view-app-logs)
 - [Configure health check](../config-health-check)
 - [Scale the app horizontally](../scale-horizontal)
 - [Scale the app vertically](../scale-vertical)
-- [Bind a service](../bind-service)
+
+After you configure the .NET Core sample app, continue to [Next Steps](../next-steps) to extend the functionality of the app.

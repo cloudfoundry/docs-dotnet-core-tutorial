@@ -7,6 +7,3 @@ you must have the following:
 - An org and space in a Linux environment to deploy the .NET sample app.
 To deploy the app to your chosen org and space, you must have the Space
 Developer role at minimum.
-
-    !!! note
-        To configure some optional Day 2 operations, you must have Admin permissions in your org.
