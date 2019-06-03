@@ -1,6 +1,6 @@
-# docs-dotnet-tutorial
+# docs-dotnet-core-tutorial
 
-This repo contains a tutorial for deploying your first .NET app on Cloud Foundry.
+This repo contains a tutorial for deploying your first .NET Core app on Cloud Foundry.
 
 ## Set up MkDocs
 
