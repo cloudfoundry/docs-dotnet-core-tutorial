@@ -1,9 +1,9 @@
 This topic describes the next steps you can take after deploying
-the .NET Core sample app.
+the .NET sample app.
 
 ## Overview
 
-After you deploy the .NET Core sample app, you can do additional configuration
+After you deploy the .NET sample app, you can do additional configuration
 to extend the functionality of the app.
 
 ## Implement microservices with Steeltoe

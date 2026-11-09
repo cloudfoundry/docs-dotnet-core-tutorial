@@ -31,7 +31,7 @@ markdown_extensions:
   - admonition
   - codehilite:
       guess_lang: true
-      linenums: true
+      linenums: false
   - toc:
       permalink: true
 plugins:

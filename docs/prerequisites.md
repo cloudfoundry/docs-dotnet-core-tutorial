@@ -1,4 +1,4 @@
-Before you can push the .NET Core sample app to {{ product_full }},
+Before you can push the .NET sample app to {{ product_full }},
 you must have the following:
 
 - A Cloud Foundry deployment. For more information, see [Deploying Cloud Foundry with cf-deployment](https://docs.cloudfoundry.org/deploying/cf-deployment/).
